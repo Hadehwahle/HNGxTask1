@@ -6,8 +6,6 @@ body {
     background-color: lightgray;
     padding: 10px;
     border-radius: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
-    display: grid;
     }
 p, a {
     margin: 15px;
