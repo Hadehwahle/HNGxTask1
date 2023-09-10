@@ -7,20 +7,15 @@
         <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="section">
-            <div id="personalData">
-                <div id="image">
-                    <img data-testid="slackDisplayImage" src="pierre.jpg" alt="Pierre">
-                </div>
-                <div id="text">
-                    <p data-testid="slackUserName" style="font-size: 40px;">Pierre</p>
-                    <p data-testid="currentDayOfTheWeek"></p>
-                    <p data-testid="myTrack">Track: Frontend</p>
-                    
-                </div>
-            <a href="https://github.com/Hadehwahle/HNGxTask1" data-testid="githubURL" target="_blank">GitHub</a>
-            </div>
-    </div>
+    <body>
+        <div id="personalData">
+            <p data-testid="slackUserName" style="font-size: 40px">Pierre</p>
+            <img data-testid="slackDisplayImage" src="pierre.jpg" alt="Pierre">
+            <p id="currentDayOfTheWeek"data-testid="currentDayOfTheWeek"></p>
+            <p id="currentUTCTime" data-testid="currentUTCTime"></p>
+            <p data-testid=" myTrack">Frontend</p>
+            <a href="https://github.com/Hadehwahle/HNGxTask1" data-testid="githubURL">GitHub</a>
+        </div>
         <script src="index.js"></script>
 </body>
 </html>
